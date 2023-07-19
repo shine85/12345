@@ -17,7 +17,3 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-echo 'CONFIG_PACKAGE_luci-app-oaf=y' >>jdy.config
-echo 'CONFIG_PACKAGE_kmod-oaf=y' >>jdy.config
-echo 'CONFIG_PACKAGE_appfilter=y' >>jdy.config
-echo 'CONFIG_PACKAGE_luci-i18n-oaf-zh-cn=y' >>jdy.config
