@@ -23,7 +23,7 @@ env:
   # 源码仓库地址
   REPO_URL: https://github.com/openwrt/openwrt
   # 源码分支
-  REPO_BRANCH: openwrt-23.03
+  REPO_BRANCH: openwrt-22.03
   FEEDS_CONF: feeds.conf.default
   # 本地仓库根目录中自定义 menu config 配置文件名称（可选）
   CONFIG_FILE: .config
