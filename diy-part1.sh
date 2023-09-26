@@ -17,4 +17,5 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git OAF https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter' >>feeds.conf.default
+echo 'src-git parental-control https://github.com/gl-inet/parental-control.git package/parental-control' >>feeds.conf.default
 #git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
